@@ -24,11 +24,12 @@ A ftplugin is also provided to use <C-]> to jump from the contents or reference 
 Install Details
 ---------------
 unzip the archive to your .vim (or vimfiles) directory. 
-
 You must add filetype detect by yourself. For example, add 
+
   if expand('%:t') =~? 'rfc\d\+' 
     setfiletype rfc 
   endif 
+
 to your scripts.vim will make Vim recognize all files with name rfcXXXX as RFC file. 
 
 .. _vim script: http://www.vim.org/scripts/script.php?script_id=2930
