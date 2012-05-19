@@ -26,9 +26,9 @@ Install Details
 unzip the archive to your .vim (or vimfiles) directory. 
 You must add filetype detect by yourself. For example, add 
 
-  if expand('%:t') =~? 'rfc\d\+' 
-    setfiletype rfc 
-  endif 
+|  if expand('%:t') =~? 'rfc\d\+' 
+|    setfiletype rfc 
+|  endif 
 
 to your scripts.vim will make Vim recognize all files with name rfcXXXX as RFC file. 
 
